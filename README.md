@@ -3,6 +3,8 @@ I have played around with React before but this is my first site that actually h
 
 I thought this would be a decent idea for a site since my bot already has a command to show info about the bot. Lots of fun, definitely wanting to make more apps with React in the future, it's just hard to come up with ideas that are worth doing.
 
+I'm NOT extremely knowledgeable with using React but I am proud of this site as one of my first legitimate React apps. Certainly there could be a million improvements someone could make, but this site was made for the sake of learning more than anything.
+
 ##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
