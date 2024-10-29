@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/discord-bot-dashboard/static/css/main.2de3ffb4.css",
-    "main.js": "/discord-bot-dashboard/static/js/main.d99a271b.js",
+    "main.js": "/discord-bot-dashboard/static/js/main.753058df.js",
     "static/js/453.69190a03.chunk.js": "/discord-bot-dashboard/static/js/453.69190a03.chunk.js",
     "index.html": "/discord-bot-dashboard/index.html",
     "main.2de3ffb4.css.map": "/discord-bot-dashboard/static/css/main.2de3ffb4.css.map",
-    "main.d99a271b.js.map": "/discord-bot-dashboard/static/js/main.d99a271b.js.map",
+    "main.753058df.js.map": "/discord-bot-dashboard/static/js/main.753058df.js.map",
     "453.69190a03.chunk.js.map": "/discord-bot-dashboard/static/js/453.69190a03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2de3ffb4.css",
-    "static/js/main.d99a271b.js"
+    "static/js/main.753058df.js"
   ]
 }
