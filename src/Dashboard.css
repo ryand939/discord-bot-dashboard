@@ -1,35 +1,35 @@
 /* src/Dashboard.css */
 
 .dashboard-container {
-    padding: 20px;
-    background-color: inherit; 
-    min-height: 80vh;
+  padding: 20px;
+  background-color: inherit;
+  min-height: 80vh;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer {
+  background-color: inherit;
+  padding: 10px 0;
+}
+
+body {
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .MuiToolbar-root img {
+    height: 30px;
   }
-  
-  .loading-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .error-message {
-    color: red;
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .footer {
-    background-color: inherit;
-    padding: 10px 0;
-  }
-  
-  body {
-    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
-  }
-  
-  @media (max-width: 600px) {
-    .MuiToolbar-root img {
-      height: 30px; 
-    }
-  }
+}

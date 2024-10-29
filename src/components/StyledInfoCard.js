@@ -1,5 +1,4 @@
 // src/StyledInfoCard.js
-
 import { Card } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
@@ -10,10 +9,16 @@ const StyledInfoCard = styled(Card)(({ theme }) => ({
   boxShadow: theme.shadows[4],
   transition:
     "transform 0.25s ease, box-shadow 0.1s ease, background-color 0.5s ease",
-  "&:hover": {
-    transform: "scale(1.01)",
-    boxShadow: `0 8px 30px rgba(0, 0, 0, 0.3), 
+  "@media (hover: hover)": {
+    "&:hover": {
+      transform: "scale(1.01)",
+      boxShadow: `0 8px 30px rgba(0, 0, 0, 0.3), 
                0 0 14px ${theme.palette.primary.main}`,
+    },
+  },
+  [theme.breakpoints.down("sm")]: {
+    padding: theme.spacing(0),
+    borderRadius: 12,
   },
 }));
 

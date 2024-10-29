@@ -13,7 +13,7 @@ const CommandsSection = ({ commands, checked }) => {
   const theme = useTheme();
   return (
     <Box sx={{ px: 4 }}>
-      <Grid container spacing={4}>
+      <Grid container spacing={4} >
         <Grid item xs={12}>
           <Fade in={checked} timeout={1000}>
             <Box>
@@ -27,7 +27,10 @@ const CommandsSection = ({ commands, checked }) => {
                     <Typography
                       variant="h5"
                       component="div"
-                      sx={{ fontWeight: "bold" }}
+                      sx={{
+                        fontWeight: "bold",
+                        fontSize: { xs: "1.2rem", sm: "1.5rem", md: "1.8rem" },
+                      }}
                     >
                       Commands
                     </Typography>

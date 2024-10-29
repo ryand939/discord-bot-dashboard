@@ -1,5 +1,4 @@
 // src/StyledMainCard.js
-
 import { Card } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
@@ -8,6 +7,9 @@ const StyledMainCard = styled(Card)(({ theme }) => ({
   borderRadius: 16,
   boxShadow: theme.shadows[4],
   transition: "background-color 0.5s ease",
+  [theme.breakpoints.down("sm")]: {
+    borderRadius: 12,
+  },
 }));
 
 export default StyledMainCard;

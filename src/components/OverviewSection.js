@@ -124,7 +124,7 @@ const OverviewSection = ({ data, checked }) => {
     <Box sx={{ px: 4 }}>
       <Grid container spacing={4}>
         {sections.map((section, index) => (
-          <Grid item xs={12} lg={6} key={index}>
+          <Grid item xs={12} sm={6} lg={6} key={index}>
             <Grow in={checked} timeout={section.timeout}>
               <Box>
                 <StyledInfoCard sx={{ pt: 1, pb: 1 }}>
@@ -134,7 +134,14 @@ const OverviewSection = ({ data, checked }) => {
                       <Typography
                         variant="h5"
                         component="div"
-                        sx={{ fontWeight: "bold" }}
+                        sx={{
+                          fontWeight: "bold",
+                          fontSize: {
+                            xs: "1.2rem",
+                            sm: "1.5rem",
+                            md: "1.8rem",
+                          },
+                        }}
                       >
                         {section.title}
                       </Typography>

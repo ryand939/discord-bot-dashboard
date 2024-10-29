@@ -13,8 +13,9 @@ const Footer = ({ timestamp }) => {
         align="center"
         sx={{ py: 2 }}
       >
-        This information is automatically updated every 90 minutes. Last updated
-        on{" "}
+        This info is auto-updated every 90 minutes.
+        <br />
+        Last updated on{" "}
         {timestamp
           ? new Date(timestamp.seconds * 1000).toLocaleString()
           : "N/A"}

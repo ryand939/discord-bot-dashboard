@@ -1,5 +1,4 @@
 // src/Dashboard.js
-
 import React, { useEffect, useState } from "react";
 import { db } from "./firebase";
 import { doc, onSnapshot } from "firebase/firestore";
@@ -44,10 +43,10 @@ function Dashboard() {
           mode: darkMode ? "dark" : "light",
           primary: {
             main: darkMode ? "#9C8CFF" : "#5C41FF",
-            buttonhover: "#5C41FF",
+            buttonhover: "#7A67FF", 
             buttontexthover: "#ffffff",
-            buttonselectedtext: "#000000",
-            themecolor: "#4D30FC",
+            buttonselectedtext: "#ffffff", 
+            themecolor: darkMode ? "#9C8CFF" : "#9C8CFF",
           },
           secondary: {
             main: darkMode ? "#B8ADFF" : "#4D30FC",
@@ -57,15 +56,21 @@ function Dashboard() {
             paper: darkMode ? "#1e1e1e" : "#ffffff",
             minicard: darkMode ? "#2c2c2c" : "#eaeaea",
             minicardhover: darkMode ? "#3c3c3c" : "#dadada",
+            drawer: darkMode ? "#3f3f3f" : "#ffffff",
             darkmodeswitch: darkMode ? "#f5f5f5" : "#121212",
           },
           text: {
             primary: darkMode ? "#ffffff" : "#000000",
+            primaryinverted: darkMode ? "#000000" : "#ffffff",
           },
         },
       }),
     [darkMode]
   );
+
+  const handleTabChange = (event, newValue) => {
+    setTabIndex(newValue);
+  };
 
   const handleTabIndexChange = (index) => {
     setTabIndex(index);
@@ -137,7 +142,7 @@ function Dashboard() {
         setTabIndex={setTabIndex}
       />
 
-      <Container sx={{ py: 4 }}>
+      <Container sx={{ py: 3 }}>
         <SwipeableViews
           index={tabIndex}
           onChangeIndex={handleTabIndexChange}
@@ -158,7 +163,7 @@ function Dashboard() {
             )}
           </Box>
 
-          {/* Commands Tab - USING ComandSection COMPONENT */}
+          {/* Commands Tab - USING CommandsSection COMPONENT */}
           <Box
             role="tabpanel"
             hidden={tabIndex !== 1}
