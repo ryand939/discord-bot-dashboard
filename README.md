@@ -1,17 +1,12 @@
-## [🔗 Discord-Bot Dashboard](https://ryand939.github.io/discord-bot-dashboard/)
-I have played around with React before but this is my first site that actually has some practical use. Basically the site just reads off of a [Google Firebase](https://firebase.google.com/) DB which [my discord bot](https://github.com/ryand939/discord-bot) writes to every 90 minutes. 
+## [Archived Version of My Website](https://ryand939.github.io/discord-bot-dashboard/)
 
-I thought this would be a decent idea for a site since my bot already has a command to show info about the bot. Lots of fun, definitely wanting to make more apps with React in the future, it's just hard to come up with ideas that are worth doing.
+**Note:** This repository is an **OUTDATED** version of my website, originally hosted on GitHub Pages. Since then, I have done the following (as of 11/05/2024):
+- Acquired the domains [daer.ca](https://daer.ca) and [daerware.com](https://daerware.com)
+- Hosted the site on a VPS for more performance and control
+- Ditched Google Firestore and made a PostgreSQL database on the VPS
+- Developed a backend API to serve the frontend react app
+- Integrated WebSockets to allow for real-time updates when the database is modified
+  
+...and I have plenty more things planned!
 
-I'm NOT extremely knowledgeable with using React but I am proud of this site as one of my first legitimate React apps. Certainly there could be a million improvements someone could make, but this site was made for the sake of learning more than anything.
-
-##
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Feel free to look at this archived version, but check out [daer.ca](https://daer.ca) or [daerware.com](https://daerware.com) for my latest site.
