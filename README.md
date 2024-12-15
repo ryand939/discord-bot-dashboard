@@ -4,9 +4,9 @@
 - Acquired the domains [daer.ca](https://daer.ca) and [daerware.com](https://daerware.com)
 - Hosted the site on a VPS for more performance and control
 - Ditched Google Firestore and made a PostgreSQL database on the VPS
-- Developed a backend API to serve the frontend react app
-- Integrated WebSockets to allow for real-time updates when the database is modified
+- Switched to next.js for frontend and built an express.js backend
+- Added much more data to the dashboard database table
   
 ...and I have plenty more things planned!
 
-Feel free to look at this archived version, but check out [daer.ca](https://daer.ca) or [daerware.com](https://daerware.com) for my latest site.
+Feel free to look at this archived version, but check out [bot.daerware.com](https://bot.daerware.com) for the latest version of this dashboard
