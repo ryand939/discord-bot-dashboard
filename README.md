@@ -9,4 +9,4 @@
   
 ...and I have plenty more things planned!
 
-Feel free to look at this archived version, but check out [bot.daerware.com](https://bot.daerware.com) for the latest version of this dashboard
+Feel free to look at this archived version, but check out [bot.daerware.com/dashboard](https://bot.daerware.com/dashboard) for the latest version of this dashboard
